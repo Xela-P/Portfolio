@@ -12,6 +12,9 @@ nav{
     text-align: center;
 
 }
+body{
+    background-color: #c7ecee;
+}
 main{
     max-width: 90rem;
     margin: 0 auto;
