@@ -1,5 +1,5 @@
 header{
-    background-color: #dff9fb;
+    background-color: #f9ffffc4;
 }
 header h1{
     text-align: center;
@@ -13,7 +13,7 @@ nav{
 
 }
 body{
-    background-color: #c7ecee;
+    background-image: url("../asset/fond-texture-blanc-elegant_23-2148431731.jpg");
 }
 main{
     max-width: 90rem;
