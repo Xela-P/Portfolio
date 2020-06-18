@@ -1,0 +1,134 @@
+/*theme form 2020*/
+:root{
+    --color-default: #bdc3c7;
+    --color-primary: #3498bd;
+    --color-warning: #c0392b;
+    --color-success: #27ae60;
+    /*taille button*/
+    --size-btn-large: auto;
+    --size-btn-medium: 20rem;
+    --size-btn-smol: 10em;
+}
+/*class button*/
+.btn-primary{
+    background-color: var(--color-primary);
+    color: #fff;
+}
+.btn-warning,.msg-warning{
+    background-color: var(--color-warning);
+    color: #fff;
+}
+
+.msg-warning,.msg-success{
+    text-align: center;
+    line-height: 2.5rem;
+    display: none;
+}
+.msg-success{
+    background-color: var(--color-success);
+    color: #fff;
+}
+.btn-success{
+    background-color: var(--color-success);
+    color: #fff;
+    border: 0;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+
+}
+/*taille button*/
+.btn-large{
+    width: var(--size-btn-large);
+}
+.btn-medium{
+    width: var(--size-btn-medium);
+}
+.btn-smol{
+    width: var(--size-btn-smol);
+}
+main, header{
+    max-width: 70rem;
+    padding: 1.0rem;
+    margin: 2.0rem auto;
+}
+header{
+    margin-bottom: 0;
+    text-align: center;
+}
+header > h1 > strong{
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+}
+header h1::before{
+    content:"\f369";
+    font-family: "Font Awesome 5 brands";
+    margin-right: 0.6rem;
+
+}
+main section{
+    border: solid 0.1rem #ccc;
+    padding: 1.0rem;
+    background: #fafafa;
+}
+main section h2{
+    text-align: center;
+    color: #222;
+}
+main section h2 i{
+    vertical-align: 0.2rem;
+    color: #f39c12
+}
+
+main .form{
+    position: relative;
+    opacity: 0;
+    z-index: -1;
+    transition: 0.8s ease-in-out;
+    background-color: #fafafa;
+    padding: 1.0rem;
+    border: solid 1px #ccc;
+    margin-top: 1.0rem;
+}
+main .form:target{
+    opacity: 1;
+    z-index: 1;
+}
+
+main section a{
+    display: block;
+    background-color: var(--color-default);
+    line-height: 4.5rem;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    border-radius: 0.4rem;
+}
+main .form input, main .form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.0rem;
+    line-height: 2.5rem;
+}
+main .form input[type="email"],main .form input[type="password"]{
+    padding: 0.8rem;
+
+}
+main .form input[type="submit"]{
+    line-height: 3.5rem;
+    margin: 0;
+}
+main .form [placeholder]{
+    transition-duration: 0.8s;
+} 
+main .form [placeholder]:focus{
+    background-color: #f39c12;
+}
+
+/*
+Create
+Read
+Update
+Delete
+
+CDN Content Delivery Network
+*/

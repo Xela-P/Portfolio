@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cette page est réservée aux membres">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <title>Espace Membre</title>
+</head>
+<body>
+    <header>
+        <h1><strong>INSIGHT</strong> : <small>Accès Membre</small></h1>
+    </header>
+    <main>
+        <section>
+            <h2><i class="fas fa-lock"></i> Accèder à votre espace</h2>
+            <a href="#form" title="Entrée membres" class="btn-primary btn-medium">Accèder à votre espace</a>
+        </section>
+        <div class="form" role="form" id="form">
+            <form action="" method="post">
+                <p></p>
+                <label for="mail">Votre e-mail :</label><!--le for sert a rediriger vers la boite de dialogue lorsque le for et l'id est le meme-->
+                    <input type="email" name="mail" id="mail" placeholder="Votre mail" autofocus aria-required="true">
+                <label for="passord">Votre mot de passe :</label>
+                    <input type="password" name="mdp" id="password" aria-required="true">
+                <input type="submit" value="Se Connecter" class="btn-success bts-large">
+            </form>
+        </div>
+    </main>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>

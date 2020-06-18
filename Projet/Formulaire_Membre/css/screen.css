@@ -1,0 +1,32 @@
+.zonetest,#msg{
+    max-width: 40.0rem;
+    margin:1.0rem auto;
+}
+#msg{
+    text-align: center;
+    
+}
+.warning, p strong{
+    color: rgb(200,0,0);
+}
+.alert{
+    color: rgb(200,0,0);
+}
+.zonetest button[type="button"]{
+        display: block;
+        line-height: 4.0rem;
+        text-align: center;
+        border: solid 0.1rem transparent;
+        margin:0.8rem auto 0;
+        width: 30.0rem;
+        background: #448AFF;
+        color: #fff;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+}
+input[type="number"]{
+    display: inline-block;
+    line-height: 2.5rem;
+    border: solid 0.1rem #ccc;
+    padding:0.5rem;
+}
