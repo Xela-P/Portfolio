@@ -13,7 +13,8 @@ nav{
 
 }
 section h2{
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 body{
     background-image: url("../asset/fond-texture-blanc-elegant_23-2148431731.jpg");
