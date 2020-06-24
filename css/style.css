@@ -15,6 +15,8 @@ nav{
 section h2{
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background: #ccc;
+    padding-left: 1.0rem 0;
 }
 body{
     background-image: url("../asset/fond-texture-blanc-elegant_23-2148431731.jpg");
@@ -30,4 +32,10 @@ main{
 footer{
     max-width: 90rem;
     margin: 3.5rem auto;
+}
+hr{
+    border: 0;
+    height: 0.1rem;
+    background: #222;
+    margin: 1.0rem;
 }
