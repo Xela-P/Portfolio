@@ -40,6 +40,10 @@ hr{
     background: #222;
     margin: 1.0rem;
 }
+details ul{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 section .pres::before{
     font-family: 'Font Awesome 5 Free';
     content: "\f2bb";
@@ -49,11 +53,13 @@ section .comp::before{
     font-family: 'Font Awesome 5 Free';
     content: "\f7d9";
     margin-right: 0.6rem;
+    font-weight: 900;
 }
 section .acad::before{
     font-family: 'Font Awesome 5 Free';
     content: "\f19d";
     margin-right: 0.6rem;
+    font-weight: 900;
 }
 section .parpro::before{
     font-family: 'Font Awesome 5 Free';
