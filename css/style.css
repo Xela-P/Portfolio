@@ -29,6 +29,7 @@ main{
     padding: 3rem;
     border-radius: 0.8rem;
     background-color: #f1f2f6;
+    margin-top: 3rem;
 }
 footer{
     max-width: 90rem;
@@ -65,4 +66,10 @@ section .parpro::before{
     font-family: 'Font Awesome 5 Free';
     content: "\f1ad";
     margin-right: 0.6rem;
+}
+header h1::before{
+    font-family: 'Font Awesome 5 Brands';
+    content: "\f36e";
+    margin-right: 0.6rem;
+    font-size: 4rem;
 }
