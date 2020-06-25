@@ -40,3 +40,7 @@ hr{
     background: #222;
     margin: 1.0rem;
 }
+section .pres::before{
+    content: "\f2bb";
+    font-family: "FontAwesome";
+}
