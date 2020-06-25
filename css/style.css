@@ -41,6 +41,22 @@ hr{
     margin: 1.0rem;
 }
 section .pres::before{
+    font-family: 'Font Awesome 5 Free';
     content: "\f2bb";
-    font-family: "FontAwesome";
+    margin-right: 0.6rem;
+}
+section .comp::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f2bb";
+    margin-right: 0.6rem;
+}
+section .acad::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f2bb";
+    margin-right: 0.6rem;
+}
+section .parpro::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f2bb";
+    margin-right: 0.6rem;
 }
