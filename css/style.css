@@ -18,13 +18,14 @@ section{
 section h2{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background: #ccc;
+    background: #0984e3;
+    color: white;
     padding-left: 1.0rem;
     border-radius: 0.8rem;
     margin-bottom: 1rem;
 }
 body{
-    background-image: url("../asset/fond-texture-blanc-elegant_23-2148431731.jpg");
+    background-image: url("../asset/113677-blue-and-white-diagonal-stripes-background-vector.jpg");
 }
 main{
     max-width: 90rem;
@@ -82,4 +83,21 @@ header h1::before{
     content: "\f36e";
     margin-right: 0.6rem;
     font-size: 4rem;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+summary::before {
+    content: "+";
+    font-weight: bold;
+    margin: -5px 5px 0 0;
+    padding: 0;
+    width: 20px;
+    transition-duration: 0.2s;
+}
+details[open] summary::before{
+    content: "-";
+}
+details:hover{
+    cursor: pointer;  
 }
