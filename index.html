@@ -22,9 +22,9 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2 class="pres">Présentation</h2>
-               <p> Je m'appelle Alexandre Firmin, 21 ans et je suis étudiant en BTS option SLAM a l'école ITIC Paris. </p>
+        <section itemscope itemtype="https://schema.org/WebPage">
+            <h2 itemprop="name" class="pres">Présentation</h2>
+                <p itemprop="Description"> Je m'appelle Alexandre Firmin, 21 ans et je suis étudiant en BTS option SLAM a l'école ITIC Paris. </p>
                 <hr>
                 <p>Voici mon portfolio contenant toute les informations à propos de mon parcours académique et professionnel ainsi que mes compétences.</p>
                 <p>Vous y retrouverez mon CV, mes contacts, et mes projets personnel que je partage en publique.</p>
@@ -41,10 +41,12 @@
         <summary>Informations</summary>
         <hr>
         <ul>
+            <address itemscope itemtype="https://schema.org/PostalAddress">
             <li>Comment me contacter ?</li>
-            <li>E-mail : <strong>azertyuiop@gmail.com</strong></li>
-            <li>Tel :  <strong>(+33) 65.62.68.17</strong></li>
-            <li>&copy; MIT 2020</li>
+            <li itemprop="email">E-mail : <strong>azertyuiop@gmail.com</strong></li>
+            <li itemprop="telephone">Tel :  <strong>(+33) 65.62.68.17</strong></li>
+            </address>
+            <li itemprop="CopyrightHolder">&copy; MIT 2020</li>
         </ul>
         </details>
     </footer>
