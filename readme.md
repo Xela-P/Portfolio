@@ -8,8 +8,7 @@
                 <p>Je suis dynamique, passionné et autonome, mes expériences professionnel m'ont permis de me forger une attitude de travail a la hauteur des attentes des employeurs.</p>
                 <p>Ayant travaillé dans le retail j'ai les capacité de communication auprès d'un client</p>
                 <p>Je suis passionné de jeux vidéos et de mangas, je possede un pc que j'ai monter intégralement et j'envisage d'apprendre le japonais comme troisième langue.</p>
-                <hr>
-## CV 
+                <hr> 
 <section>
             <h2 class="comp">Compétences</h2>
             <details>
@@ -99,3 +98,28 @@
                 </ul>
             </details>
         </section>
+<h2><strong>Voici mes projets</strong></h2>
+<section>
+            <h2><a href="./Projet/exercice_one_page/index.html">Projet alpha</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum officiis temporibus, neque, dicta consequatur perferendis fugit impedit optio tenetur itaque veritatis alias? Mollitia, reiciendis. Libero repudiandae ratione repellendus deserunt at?</p>
+        </section>
+        <section>
+            <h2><a href="./Projet/Formulaire_Membre/index.html">Projet beta</a></h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae maxime cumque alias suscipit fugiat quis dolorum modi aperiam iure adipisci necessitatibus numquam dolor, assumenda dolorem perspiciatis blanditiis accusantium ea.</p>
+        </section>
+        <section>
+            <h2><a href="./Projet/Portfolio_First_Mobile/index.html">Projet charlie</a></h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae maxime cumque alias suscipit fugiat quis dolorum modi aperiam iure adipisci necessitatibus numquam dolor, assumenda dolorem perspiciatis blanditiis accusantium ea.</p>
+        </section>
+        <details>
+        <summary>Informations</summary>
+        <hr>
+        <ul>
+            <address itemscope itemtype="https://schema.org/PostalAddress">
+            <li>Comment me contacter ?</li>
+            <li itemprop="email">E-mail : <strong>azertyuiop@gmail.com</strong></li>
+            <li itemprop="telephone">Tel :  <strong>(+33) 65.62.68.17</strong></li>
+            </address>
+            <li itemprop="CopyrightHolder">&copy; MIT 2020</li>
+        </ul>
+        </details>
