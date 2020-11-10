@@ -7,7 +7,14 @@ header h1{
 nav ul li{
     display: inline-block;
     padding: 1.0rem;
-} 
+    margin:  0 auto;
+    border: solid 0.2rem rgba(0, 0, 0, 1);
+    border-radius: 0.5rem;
+}
+nav ul li:hover{
+    background-color: rgba(241, 242, 246, 1);
+
+}
 nav{
     text-align: center;
 
@@ -34,7 +41,7 @@ section h2 a{
     color: white;
 }
 body{
-    background-image: linear-gradient(-45deg, #ecf0f1, #55efc4, #273c75, #0984e3);
+    background-image: linear-gradient(-45deg, #ecf0f1, #325be0, #7f2bce, #c91212);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -53,15 +60,26 @@ body{
 main{
     max-width: 90rem;
     margin: 0 auto;
-    box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);
+    /*box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);*/
     padding: 3rem;
     border-radius: 0.8rem;
-    background-color: rgba(241, 242, 246, 0.6);
+    background-color: rgba(241, 242, 246, 0.0);
     margin-top: 3rem;
+    color: rgba(241, 242, 246, 1);
+    transition-duration: 0.5s;
+}
+main:hover{
+    box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);
+    background-color: rgba(241, 242, 246, 0.7);
+    transition-duration: 0.5s;
+    color: black;
 }
 footer{
     max-width: 90rem;
     margin: 3.5rem auto;
+    font-style: normal;
+    text-align: center;
+    color: rgba(241, 242, 246, 1);
 }
 section p{
     line-height: 2.5rem;
