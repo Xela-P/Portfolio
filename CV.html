@@ -7,21 +7,30 @@
     <title>CV</title>
     <link rel="icon" type="image/" href="#">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset_stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <header>
-        <h1>Voici mon curriculum vitae</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Présentation</a></li>
-                <li><a href="./CV.html">CV</a></li>
-            </ul>
-        </nav>
+    <header class="main-content">
+        <section class="main-content-flex">
+            <div class="logo">
+                <img src="./asset/astronaut-helmet.png" alt="Astronaute">
+            </div>
+            <h1>Mon curriculum vitae</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Présentation</a></li>
+                    <li><a href="./CV.html">CV</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="main-content-image">
+            <!--image here-->
+        </section>
     </header>
     <main>
-        <section>
+        <div class="tile-container">
+        <section class="tile first">
             <h2 id="comp" class="comp">Compétences</h2>
             <details>
             <summary>Langages</summary>
@@ -59,7 +68,7 @@
                 </ul>
             </details>
         </section>
-        <section>
+        <section class="tile second">
             <h2 id="acad" class="acad">Parcours académique</h2>
             <p>Baccalauréat Professionnel Systèmes Électroniques Numériques Mention Assez Bien. Lycée Denis Papin (La Courneuve 93120).</p>
                 <hr>
@@ -78,7 +87,7 @@
                 </ul>
             
         </section>
-        <section>
+        <section class="tile third">
             <h2 id="parpro" class="parpro">Parcours Professionnels</h2>
             <details>
                 <summary>(Juin 2020 durée : 1 mois et demi) Stage - Stagiaire dans le service informatique de Hexagone Santé Paris (Ile-De-France).</summary>
@@ -111,7 +120,8 @@
                     <li>Gestion du service sous intranet</li>
                 </ul>
             </details>
-        </section>   
+        </section>
+    </div>   
     </main>
     <footer>
             <details>
@@ -123,6 +133,7 @@
                 <li itemprop="email">E-mail : <strong>alexandre.firmin2@gmail.com</strong></li>
                 <li itemprop="telephone">Tel :  <strong>06.62.50.61.99</strong></li>
                 <li>&copy; MIT 2020</li>
+                <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
             </ul>
             </details>
         </footer>

@@ -7,21 +7,29 @@
     <title>CV Alexandre Firmin</title>
     <link rel="icon" type="image/" href="#">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset_stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <header>
-        <h1>Alexandre Firmin</h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Présentation</a></li>
-                <li><a href="./CV.html">CV</a></li>
-            </ul>
-        </nav>
+    <header class="main-content">
+        <section class="main-content-flex">
+            <div class="logo">
+                <img src="./asset/astronaut-helmet.png" alt="Astronaute">
+            </div>
+            <h1>Alexandre Firmin</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Homepage</a></li>
+                    <li><a href="./CV.html">CV</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="main-content-image">
+            <!--image here-->
+        </section>
     </header>
     <main>
-        <section itemscope itemtype="https://schema.org/WebPage">
+        <section itemscope itemtype="https://schema.org/WebPage" class="presentation">
             <h2 itemprop="name" class="pres">Présentation</h2>
                 <p itemprop="Description"> Je m'appelle Alexandre Firmin, 21 ans et je suis étudiant en BTS option SLAM à l'école ITIC Paris. </p>
                 <hr>
@@ -34,7 +42,6 @@
                 <hr>
                 <p>Je suis à la recherche d'un stage pour novembre durant 5 semaines ou d'une alternance, je suis disponible immédiatement.</p>
         </section>
-        
     </main>
     <footer>
         <details>
@@ -47,6 +54,7 @@
             <li itemprop="telephone">Tel :  <strong>06.62.50.61.99</strong></li>
             </address>
             <li itemprop="CopyrightHolder">&copy; MIT 2020</li>
+            <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
         </ul>
         </details>
     </footer>
