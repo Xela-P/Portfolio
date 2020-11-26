@@ -14,8 +14,9 @@ nav ul li{
 
 }
 nav ul li:hover{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     transition-duration: 0.5s;
+    color: white;  
 }
 nav{
     text-align: center;
@@ -30,12 +31,11 @@ nav{
     flex-direction: column;
 }
 .logo img{
-    width: 20rem;
+    width: 15rem;
     margin: auto;
 }
 section h1{
     font-size: 5rem;
-    padding-bottom: 7rem;
     font-family: 'roboto';
     background: -webkit-linear-gradient(#555, #000);
     -webkit-background-clip: text;
@@ -73,7 +73,7 @@ section h2 a{
     font-family: 'roboto';
 }
 body{
-    background-image: linear-gradient(-45deg, #ecf0f1, #325be0, #7f2bce, #c91212);
+    background-image: linear-gradient(-45deg, #ecf0f1, #325be0, #7f2bce, #e70909);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
 }
@@ -189,6 +189,12 @@ details:hover{
     header{
         border-radius: 0rem;
     }
+    header h1{
+        padding-bottom: 7rem;
+    }
+    .logo img{
+        width: 20rem;
+    }
 }
 @media screen and (min-width: 1575px){
     .tile-container{
@@ -233,7 +239,7 @@ details:hover{
     }
     .third{
         flex: 1 0 50vw;
-        text-align: center;
+        text-align: justify;
         background-color: rgba(241, 242, 246, 0.0);
         color: rgba(241, 242, 246, 1);
         transition-duration: 0.5s;
