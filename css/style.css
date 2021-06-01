@@ -63,8 +63,10 @@ section{
     padding-left: 1.0rem;
     border-radius: 0.8rem;
     margin-bottom: 1rem;
+    transition-duration: 0.5s;
 }
 .presentation h2:hover, section h2:hover{
+    box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);
     background: #b2bec3;
     color: black;
     transition-duration: 0.5s;
@@ -115,6 +117,29 @@ main{
     transition-duration: 0.5s;
     color: black;
 }
+.projets{
+    max-width: 150rem;
+    margin: auto;
+    /*box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);*/
+    padding: 3rem;
+    border-radius: 0.8rem;
+    background-color: rgba(241, 242, 246, 0.0);
+    margin-top: 3rem;
+    color: rgba(241, 242, 246, 1);
+    transition-duration: 0.5s;
+}
+.projets:hover{
+    box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);
+    background-color: rgba(241, 242, 246, 0.7);
+    transition-duration: 0.5s;
+    color: black;
+}
+.projets img{
+  max-width: 80rem; 
+}
+.projets:hover .doclink{
+    color: red;
+} 
 footer{
     max-width: 90rem;
     margin: 3.5rem auto;
