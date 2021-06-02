@@ -127,6 +127,11 @@ main{
     font-size:  3rem;
     line-height: 8rem;
 }
+.veille img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
 .entreprises li{
     text-align: center;
     line-height: 5rem;
@@ -151,6 +156,12 @@ main{
 }
 .entreprises li:nth-child(4)::after{
     content: url(../asset/epic-games-2.svg);
+    vertical-align: middle;
+    padding-left: 1rem;
+    width: 1rem;
+}
+.veille h3::after{
+    content: url(../asset/blender-2.svg);
     vertical-align: middle;
     padding-left: 1rem;
     width: 1rem;
