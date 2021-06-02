@@ -72,6 +72,7 @@ section{
     transition-duration: 0.5s;
 
 }
+
 section h2 a{
     color: white;
     font-family: 'roboto';
@@ -100,7 +101,7 @@ main{
     padding: 3rem;
     
 }
-.presentation{
+.presentation, .veille{
     max-width: 100rem;
     margin: auto;
     /*box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);*/
@@ -111,11 +112,44 @@ main{
     color: rgba(241, 242, 246, 1);
     transition-duration: 0.5s;
 }
-.presentation:hover{
+.presentation:hover, .veille:hover{
     box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);
     background-color: rgba(241, 242, 246, 0.7);
     transition-duration: 0.5s;
     color: black;
+}
+.veille h3,h4,h5{
+    text-align: center;
+    font-size:  3rem;
+    line-height: 8rem;
+}
+.entreprises li{
+    text-align: center;
+    line-height: 5rem;
+}
+.entreprises li:nth-child(1)::after{
+    content: url(../asset/NASA_logo.svg);
+    vertical-align: middle;
+    padding-left: 1rem;
+    width: 1rem;
+}
+.entreprises li:nth-child(2)::after{
+    content: url(../asset/ubisoft-logo.svg);
+    vertical-align: middle;
+    padding-left: 1rem;
+    width: 1rem;
+}
+.entreprises li:nth-child(3)::after{
+    content: url(../asset/nvidia.svg);
+    vertical-align: middle;
+    padding-left: 1rem;
+    width: 1rem;
+}
+.entreprises li:nth-child(4)::after{
+    content: url(../asset/epic-games-2.svg);
+    vertical-align: middle;
+    padding-left: 1rem;
+    width: 1rem;
 }
 .projets{
     max-width: 150rem;
@@ -295,7 +329,7 @@ details:hover{
     }
 }
 @media screen and (max-width: 1575px){
-    main{
+    .main-cv{
         margin-top: 30rem;
         max-width: 160rem;
         margin: auto;
@@ -307,7 +341,7 @@ details:hover{
         border-radius: 0.8rem;
         padding: 0.7rem;
     }
-    main:hover{
+    .main-cv:hover{
         box-shadow: 0 0 4.0rem rgba(0, 0, 0, 0.2),-3.0rem 0 4.0rem rgba(0,0,0,0.1);
         background-color: rgba(241, 242, 246, 0.7);
         transition-duration: 0.5s;
